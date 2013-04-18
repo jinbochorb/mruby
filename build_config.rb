@@ -48,7 +48,8 @@ MRuby::Build.new do |conf|
   conf.gem "#{root}/mrbgems/mruby-proc-ext"
 
   # Use Random class
-  conf.gem "#{root}/mrbgems/mruby-random"
+  # conf.gem "#{root}/mrbgems/mruby-random"
+  conf.gem "#{root}/mruby-rand"
 
   # No use eval method
   # conf.gem "#{root}/mrbgems/mruby-eval"
